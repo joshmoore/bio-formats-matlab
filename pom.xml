@@ -20,11 +20,23 @@
       <groupId>${project.groupId}</groupId>
       <artifactId>bio-formats_plugins</artifactId>
       <version>${bio-formats_plugins.version}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>bio-formats-tools</artifactId>
       <version>${bio-formats-tools.version}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
   </dependencies>
 
